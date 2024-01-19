@@ -1,10 +1,7 @@
 import React, {useState} from 'react';
 import Form from './component/Form';
 import ItemList from './component/ItemList';
-import {v4 as uuidv4} from 'uuid';
 import {useSelector} from 'react-redux';
-import {store} from './redux/store'
-import {addArticle, deleteArticle, setQuantity, setName} from './redux/App/AppSlice'
 
 
 function App(){
