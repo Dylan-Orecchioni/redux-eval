@@ -15,8 +15,8 @@ function App(){
 return (
   <div className="container">
     <h3>Liste de courses</h3>
-    <Form formTitle="Ajouter un article" addArticle={() => store.dispatch(addArticle())}/>
-    <ItemList articles={articles} deleteArticle={() => store.dispatch(deleteArticle())} setQuantity={() => store.dispatch(setQuantity())} setName={() => store.dispatch(setName())} />
+    <Form formTitle="Ajouter un article" />
+    <ItemList />
   </div>
 )
 
